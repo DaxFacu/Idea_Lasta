@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap"); /* Animation */
+@keyframes scaleAnim {
+  0% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.tittle, #contacto div h2, #contactoCont section div article h2, main section h2, h1 {
+  font-size: 2.4em;
+  font-weight: 600;
+  background-color: rgba(13, 134, 190, 0.6156862745);
+}
+
+h1 {
+  font-size: 3.2em;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+body {
+  background-attachment: fixed;
+}
+
+.navText li a {
+  family: "Roboto", sans-serif, sans-serif;
+  font-size: 2em;
+}
+
+.carruselImages {
+  width: 100%;
+}
+.carruselImages div {
+  margin-left: auto;
+  width: 100%;
+  object-fit: cover;
+  box-sizing: content-box;
+}
+.carruselImages div img {
+  object-fit: contain;
+  width: 100%;
+}
+
+#menuIndex div {
+  margin: auto;
+}
+#menuIndex article {
+  display: flex;
+  justify-content: space-around;
+}
+
+main section h2 {
+  padding: 2%;
+}
+
+.productosDest article:hover {
+  animation: scaleAnim 1s ease 0s 1 normal forwards;
+}
+.productosDest article a img {
+  width: 100%;
+}
+.productosDest article a p {
+  font-size: 1.8em;
+  text-align: center;
+}
+
+#noticia article {
+  margin-left: 2%;
+}
+#noticia article h2 {
+  font-size: 600;
+  font-size: 2.4em;
+  text-align: center;
+}
+#noticia article img {
+  width: 100%;
+}
+#noticia article div {
+  width: 100%;
+}
+#noticia article div p {
+  font-size: 1.7em;
+  text-align: justify;
+}
+#noticia article div h3 {
+  font-size: 2.4em;
+  font-weight: 600;
+  text-align: center;
+}
+#noticia .noticiaIframe {
+  padding-left: 25%;
+}
+
+.noticiasDest h2 {
+  text-align: center;
+}
+.noticiasDest div article a {
+  font-size: 1.7em;
+  text-align: center;
+  text-decoration: none;
+}
+
+#productos div section div nav button {
+  background-color: rgba(25, 160, 223, 0.3411764706);
+  color: #000000;
+  border-color: #000000;
+}
+#productos div section div article:hover {
+  animation: scaleAnim 1s ease 0s 1 normal forwards;
+}
+#productos div section div a {
+  text-decoration: none;
+  font-size: 1.7em;
+  text-align: center;
+}
+
+#contactoCont {
+  width: 90%;
+}
+#contactoCont section div article h2 {
+  text-align: center;
+}
+#contactoCont section div article p {
+  font-size: 1.7em;
+}
+
+#contacto {
+  width: 90%;
+}
+#contacto div h2 {
+  text-align: center;
+}
+#contacto div label {
+  font-size: 1.7em;
+}
+#contacto div textarea {
+  height: 10vh;
+}
+#contacto div button {
+  font-size: 1.7em;
+  width: 20%;
+  background-color: rgba(25, 160, 223, 0.3411764706);
+}
+
+#tutoriales div {
+  width: 96%;
+}
+#tutoriales div article div form button {
+  border-color: #808080;
+  color: #525151;
+}
+#tutoriales div article a {
+  text-decoration: none;
+  font-size: 1.7em;
+  text-align: center;
+}
+
+.listA {
+  text-align: center;
+  list-style: none;
+}
+.listA li h3 {
+  font-size: 2.4em;
+  font-weight: 600;
+}
+.listA li {
+  text-align: center;
+}
+.listA li a {
+  text-align: center;
+  font-size: 1.7em;
+}
+.listA li {
+  text-align: center;
+}
+.listA li p {
+  font-size: 1.7em;
+}
+.listA li a {
+  text-decoration: none;
+}
+
+.login_ {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+#footer section {
+  background-color: rgba(204, 204, 204, 0.9607843137);
+}
+
+@media (min-width: 580px) {
+  #redes {
+    width: 40%;
+    height: auto;
+  }
+}
+@media (max-width: 580px) {
+  #menuIndex div {
+    display: block;
+  }
+  #menuIndex div article {
+    margin: auto;
+    width: 100%;
+  }
+}
+@media (max-width: 580px) {
+  #productos div {
+    display: block;
+  }
+  #productos div article {
+    margin: auto;
+    width: 100%;
+  }
+}
+@media (max-width: 580px) {
+  #tutoriales div {
+    display: block;
+  }
+  #tutoriales div article {
+    margin: auto;
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
